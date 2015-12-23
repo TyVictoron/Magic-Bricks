@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10ED175F1C2A4D8F00D923FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */; };
+		10ED17611C2A4D8F00D923FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17601C2A4D8F00D923FF /* ViewController.swift */; };
+		10ED17641C2A4D8F00D923FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED17621C2A4D8F00D923FF /* Main.storyboard */; };
+		10ED17671C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17651C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld */; };
+		10ED17691C2A4D8F00D923FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ED17681C2A4D8F00D923FF /* Assets.xcassets */; };
+		10ED176C1C2A4D8F00D923FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED176A1C2A4D8F00D923FF /* LaunchScreen.storyboard */; };
+		10ED17771C2A4D9000D923FF /* Magic_BricksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17761C2A4D9000D923FF /* Magic_BricksTests.swift */; };
+		10ED17821C2A4D9000D923FF /* Magic_BricksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17811C2A4D9000D923FF /* Magic_BricksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10ED17731C2A4D9000D923FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10ED17531C2A4D8F00D923FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10ED175A1C2A4D8F00D923FF;
+			remoteInfo = "Magic Bricks";
+		};
+		10ED177E1C2A4D9000D923FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10ED17531C2A4D8F00D923FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10ED175A1C2A4D8F00D923FF;
+			remoteInfo = "Magic Bricks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10ED175B1C2A4D8F00D923FF /* Magic Bricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Bricks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10ED17601C2A4D8F00D923FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10ED17631C2A4D8F00D923FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10ED17661C2A4D8F00D923FF /* Magic_Bricks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Magic_Bricks.xcdatamodel; sourceTree = "<group>"; };
+		10ED17681C2A4D8F00D923FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10ED176B1C2A4D8F00D923FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10ED176D1C2A4D8F00D923FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ED17721C2A4D9000D923FF /* Magic BricksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic BricksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ED17761C2A4D9000D923FF /* Magic_BricksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_BricksTests.swift; sourceTree = "<group>"; };
+		10ED17781C2A4D9000D923FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ED177D1C2A4D9000D923FF /* Magic BricksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic BricksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ED17811C2A4D9000D923FF /* Magic_BricksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_BricksUITests.swift; sourceTree = "<group>"; };
+		10ED17831C2A4D9000D923FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10ED17581C2A4D8F00D923FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED176F1C2A4D9000D923FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED177A1C2A4D9000D923FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10ED17521C2A4D8F00D923FF = {
+			isa = PBXGroup;
+			children = (
+				10ED175D1C2A4D8F00D923FF /* Magic Bricks */,
+				10ED17751C2A4D9000D923FF /* Magic BricksTests */,
+				10ED17801C2A4D9000D923FF /* Magic BricksUITests */,
+				10ED175C1C2A4D8F00D923FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10ED175C1C2A4D8F00D923FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10ED175B1C2A4D8F00D923FF /* Magic Bricks.app */,
+				10ED17721C2A4D9000D923FF /* Magic BricksTests.xctest */,
+				10ED177D1C2A4D9000D923FF /* Magic BricksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10ED175D1C2A4D8F00D923FF /* Magic Bricks */ = {
+			isa = PBXGroup;
+			children = (
+				10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */,
+				10ED17601C2A4D8F00D923FF /* ViewController.swift */,
+				10ED17621C2A4D8F00D923FF /* Main.storyboard */,
+				10ED17681C2A4D8F00D923FF /* Assets.xcassets */,
+				10ED176A1C2A4D8F00D923FF /* LaunchScreen.storyboard */,
+				10ED176D1C2A4D8F00D923FF /* Info.plist */,
+				10ED17651C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld */,
+			);
+			path = "Magic Bricks";
+			sourceTree = "<group>";
+		};
+		10ED17751C2A4D9000D923FF /* Magic BricksTests */ = {
+			isa = PBXGroup;
+			children = (
+				10ED17761C2A4D9000D923FF /* Magic_BricksTests.swift */,
+				10ED17781C2A4D9000D923FF /* Info.plist */,
+			);
+			path = "Magic BricksTests";
+			sourceTree = "<group>";
+		};
+		10ED17801C2A4D9000D923FF /* Magic BricksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10ED17811C2A4D9000D923FF /* Magic_BricksUITests.swift */,
+				10ED17831C2A4D9000D923FF /* Info.plist */,
+			);
+			path = "Magic BricksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10ED175A1C2A4D8F00D923FF /* Magic Bricks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ED17861C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic Bricks" */;
+			buildPhases = (
+				10ED17571C2A4D8F00D923FF /* Sources */,
+				10ED17581C2A4D8F00D923FF /* Frameworks */,
+				10ED17591C2A4D8F00D923FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic Bricks";
+			productName = "Magic Bricks";
+			productReference = 10ED175B1C2A4D8F00D923FF /* Magic Bricks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10ED17711C2A4D9000D923FF /* Magic BricksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ED17891C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic BricksTests" */;
+			buildPhases = (
+				10ED176E1C2A4D9000D923FF /* Sources */,
+				10ED176F1C2A4D9000D923FF /* Frameworks */,
+				10ED17701C2A4D9000D923FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10ED17741C2A4D9000D923FF /* PBXTargetDependency */,
+			);
+			name = "Magic BricksTests";
+			productName = "Magic BricksTests";
+			productReference = 10ED17721C2A4D9000D923FF /* Magic BricksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10ED177C1C2A4D9000D923FF /* Magic BricksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ED178C1C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic BricksUITests" */;
+			buildPhases = (
+				10ED17791C2A4D9000D923FF /* Sources */,
+				10ED177A1C2A4D9000D923FF /* Frameworks */,
+				10ED177B1C2A4D9000D923FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10ED177F1C2A4D9000D923FF /* PBXTargetDependency */,
+			);
+			name = "Magic BricksUITests";
+			productName = "Magic BricksUITests";
+			productReference = 10ED177D1C2A4D9000D923FF /* Magic BricksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10ED17531C2A4D8F00D923FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ubix;
+				TargetAttributes = {
+					10ED175A1C2A4D8F00D923FF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					10ED17711C2A4D9000D923FF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 10ED175A1C2A4D8F00D923FF;
+					};
+					10ED177C1C2A4D9000D923FF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 10ED175A1C2A4D8F00D923FF;
+					};
+				};
+			};
+			buildConfigurationList = 10ED17561C2A4D8F00D923FF /* Build configuration list for PBXProject "Magic Bricks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10ED17521C2A4D8F00D923FF;
+			productRefGroup = 10ED175C1C2A4D8F00D923FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10ED175A1C2A4D8F00D923FF /* Magic Bricks */,
+				10ED17711C2A4D9000D923FF /* Magic BricksTests */,
+				10ED177C1C2A4D9000D923FF /* Magic BricksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10ED17591C2A4D8F00D923FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED176C1C2A4D8F00D923FF /* LaunchScreen.storyboard in Resources */,
+				10ED17691C2A4D8F00D923FF /* Assets.xcassets in Resources */,
+				10ED17641C2A4D8F00D923FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED17701C2A4D9000D923FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED177B1C2A4D9000D923FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10ED17571C2A4D8F00D923FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED17671C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld in Sources */,
+				10ED17611C2A4D8F00D923FF /* ViewController.swift in Sources */,
+				10ED175F1C2A4D8F00D923FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED176E1C2A4D9000D923FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED17771C2A4D9000D923FF /* Magic_BricksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10ED17791C2A4D9000D923FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED17821C2A4D9000D923FF /* Magic_BricksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10ED17741C2A4D9000D923FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10ED175A1C2A4D8F00D923FF /* Magic Bricks */;
+			targetProxy = 10ED17731C2A4D9000D923FF /* PBXContainerItemProxy */;
+		};
+		10ED177F1C2A4D9000D923FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10ED175A1C2A4D8F00D923FF /* Magic Bricks */;
+			targetProxy = 10ED177E1C2A4D9000D923FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10ED17621C2A4D8F00D923FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ED17631C2A4D8F00D923FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10ED176A1C2A4D8F00D923FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ED176B1C2A4D8F00D923FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10ED17841C2A4D9000D923FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10ED17851C2A4D9000D923FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10ED17871C2A4D9000D923FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magic Bricks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-Bricks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10ED17881C2A4D9000D923FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magic Bricks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-Bricks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10ED178A1C2A4D9000D923FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Magic BricksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Bricks.app/Magic Bricks";
+			};
+			name = Debug;
+		};
+		10ED178B1C2A4D9000D923FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Magic BricksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Bricks.app/Magic Bricks";
+			};
+			name = Release;
+		};
+		10ED178D1C2A4D9000D923FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Magic BricksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Magic Bricks";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		10ED178E1C2A4D9000D923FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Magic BricksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Magic Bricks";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10ED17561C2A4D8F00D923FF /* Build configuration list for PBXProject "Magic Bricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED17841C2A4D9000D923FF /* Debug */,
+				10ED17851C2A4D9000D923FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ED17861C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic Bricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED17871C2A4D9000D923FF /* Debug */,
+				10ED17881C2A4D9000D923FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10ED17891C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic BricksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED178A1C2A4D9000D923FF /* Debug */,
+				10ED178B1C2A4D9000D923FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10ED178C1C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic BricksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ED178D1C2A4D9000D923FF /* Debug */,
+				10ED178E1C2A4D9000D923FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10ED17651C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10ED17661C2A4D8F00D923FF /* Magic_Bricks.xcdatamodel */,
+			);
+			currentVersion = 10ED17661C2A4D8F00D923FF /* Magic_Bricks.xcdatamodel */;
+			path = Magic_Bricks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10ED17531C2A4D8F00D923FF /* Project object */;
+}
