@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1007E05D1CB695A00047E14D /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1007E05C1CB695A00047E14D /* GameKit.framework */; };
+		1007E05F1CB695D30047E14D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1007E05E1CB695D30047E14D /* CoreData.framework */; };
+		103611311C5B0B7F0038EDDD /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103611301C5B0B7F0038EDDD /* GameOverViewController.swift */; };
+		103611331C5B25910038EDDD /* GameOverViewMusic - Magic Bricks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 103611321C5B25910038EDDD /* GameOverViewMusic - Magic Bricks.mp3 */; };
+		103611351C64E8270038EDDD /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103611341C64E8270038EDDD /* HelpViewController.swift */; };
+		1052D6D11C8E82A900C51D2C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6D01C8E82A900C51D2C /* AdSupport.framework */; };
+		1052D6D31C8E82BF00C51D2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6D21C8E82BF00C51D2C /* AudioToolbox.framework */; };
+		1052D6D51C8E82D000C51D2C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6D41C8E82D000C51D2C /* AVFoundation.framework */; };
+		1052D6D71C8E82DB00C51D2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6D61C8E82DB00C51D2C /* CoreGraphics.framework */; };
+		1052D6D91C8E82E100C51D2C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6D81C8E82E100C51D2C /* CoreMedia.framework */; };
+		1052D6DB1C8E82E800C51D2C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6DA1C8E82E800C51D2C /* CoreTelephony.framework */; };
+		1052D6DD1C8E82EE00C51D2C /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6DC1C8E82EE00C51D2C /* EventKit.framework */; };
+		1052D6DF1C8E82F400C51D2C /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6DE1C8E82F400C51D2C /* EventKitUI.framework */; };
+		1052D6E11C8E831000C51D2C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6E01C8E831000C51D2C /* MessageUI.framework */; };
+		1052D6E31C8E832800C51D2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052D6E21C8E832800C51D2C /* SystemConfiguration.framework */; };
+		10614B411CF3FA5700DF460A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10614B401CF3FA5700DF460A /* GoogleMobileAds.framework */; };
+		107C0BA61C74300A00C599AC /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107C0BA51C74300A00C599AC /* StoreViewController.swift */; };
+		107C0BA81C74DAE000C599AC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107C0BA71C74DAE000C599AC /* Product.swift */; };
+		107C0BAA1C74F05200C599AC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107C0BA91C74F05200C599AC /* StoreKit.framework */; };
+		1099FE1D1CA4CA1200E98F64 /* CubezX2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1099FE1C1CA4CA1200E98F64 /* CubezX2.png */; };
+		1099FE1F1CA5DAE800E98F64 /* X2Cubes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1099FE1E1CA5DAE800E98F64 /* X2Cubes.png */; };
+		10C576591CD9A7F700EEDB07 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576431CD9A7F700EEDB07 /* Icon-40.png */; };
+		10C5765A1CD9A7F700EEDB07 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576441CD9A7F700EEDB07 /* Icon-40@2x.png */; };
+		10C5765B1CD9A7F700EEDB07 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576451CD9A7F700EEDB07 /* Icon-40@3x.png */; };
+		10C5765C1CD9A7F700EEDB07 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576461CD9A7F700EEDB07 /* Icon-60@2x.png */; };
+		10C5765D1CD9A7F700EEDB07 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576471CD9A7F700EEDB07 /* Icon-60@3x.png */; };
+		10C5765E1CD9A7F700EEDB07 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576481CD9A7F700EEDB07 /* Icon-76.png */; };
+		10C5765F1CD9A7F700EEDB07 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576491CD9A7F700EEDB07 /* Icon-76@2x.png */; };
+		10C576601CD9A7F700EEDB07 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764A1CD9A7F700EEDB07 /* Icon-83.5@2x.png */; };
+		10C576611CD9A7F700EEDB07 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764B1CD9A7F700EEDB07 /* Icon-Small.png */; };
+		10C576621CD9A7F700EEDB07 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764C1CD9A7F700EEDB07 /* Icon-Small@2x.png */; };
+		10C576631CD9A7F700EEDB07 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764D1CD9A7F700EEDB07 /* Icon-Small@3x.png */; };
+		10EA03841C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10EA03831C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 */; };
 		10ED175F1C2A4D8F00D923FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */; };
 		10ED17611C2A4D8F00D923FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17601C2A4D8F00D923FF /* ViewController.swift */; };
 		10ED17641C2A4D8F00D923FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED17621C2A4D8F00D923FF /* Main.storyboard */; };
 		10ED17671C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17651C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld */; };
 		10ED17691C2A4D8F00D923FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ED17681C2A4D8F00D923FF /* Assets.xcassets */; };
 		10ED176C1C2A4D8F00D923FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ED176A1C2A4D8F00D923FF /* LaunchScreen.storyboard */; };
-		10ED17771C2A4D9000D923FF /* Magic_BricksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17761C2A4D9000D923FF /* Magic_BricksTests.swift */; };
 		10ED17821C2A4D9000D923FF /* Magic_BricksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17811C2A4D9000D923FF /* Magic_BricksUITests.swift */; };
+		10ED17901C2B0F1800D923FF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED178F1C2B0F1800D923FF /* GameViewController.swift */; };
+		10ED17921C2B0F2A00D923FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17911C2B0F2A00D923FF /* SettingsViewController.swift */; };
+		10ED17991C2E088500D923FF /* MagicBricks - MainTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10ED17981C2E088500D923FF /* MagicBricks - MainTheme.mp3 */; };
+		10ED179B1C2E1AED00D923FF /* MagicBricks - InGameTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10ED179A1C2E1AED00D923FF /* MagicBricks - InGameTheme.mp3 */; };
+		10ED179F1C422BE300D923FF /* ?.png in Resources */ = {isa = PBXBuildFile; fileRef = 10ED179E1C422BE300D923FF /* ?.png */; };
+		10ED17A11C422D5500D923FF /* Gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 10ED17A01C422D5500D923FF /* Gear.png */; };
+		10ED17A31C4230B700D923FF /* ReverseGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17A21C4230B700D923FF /* ReverseGameViewController.swift */; };
+		10ED17FD1C44AE8300D923FF /* UbixInc-NoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 10ED17FC1C44AE8300D923FF /* UbixInc-NoBackground.png */; };
+		10ED18011C44BAF600D923FF /* MagicBricksLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10ED18001C44BAF600D923FF /* MagicBricksLogo.png */; };
+		10ED18031C48A6F800D923FF /* TrophyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10ED18021C48A6F800D923FF /* TrophyIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +77,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1007E05C1CB695A00047E14D /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		1007E05E1CB695D30047E14D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		103611301C5B0B7F0038EDDD /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		103611321C5B25910038EDDD /* GameOverViewMusic - Magic Bricks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "GameOverViewMusic - Magic Bricks.mp3"; sourceTree = "<group>"; };
+		103611341C64E8270038EDDD /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		1052D6D01C8E82A900C51D2C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1052D6D21C8E82BF00C51D2C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1052D6D41C8E82D000C51D2C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1052D6D61C8E82DB00C51D2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1052D6D81C8E82E100C51D2C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1052D6DA1C8E82E800C51D2C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1052D6DC1C8E82EE00C51D2C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1052D6DE1C8E82F400C51D2C /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		1052D6E01C8E831000C51D2C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1052D6E21C8E832800C51D2C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		10614B401CF3FA5700DF460A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		107C0BA51C74300A00C599AC /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		107C0BA71C74DAE000C599AC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		107C0BA91C74F05200C599AC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1099FE1C1CA4CA1200E98F64 /* CubezX2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CubezX2.png; sourceTree = "<group>"; };
+		1099FE1E1CA5DAE800E98F64 /* X2Cubes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X2Cubes.png; sourceTree = "<group>"; };
+		10C576431CD9A7F700EEDB07 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		10C576441CD9A7F700EEDB07 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		10C576451CD9A7F700EEDB07 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		10C576461CD9A7F700EEDB07 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		10C576471CD9A7F700EEDB07 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		10C576481CD9A7F700EEDB07 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		10C576491CD9A7F700EEDB07 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		10C5764A1CD9A7F700EEDB07 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		10C5764B1CD9A7F700EEDB07 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		10C5764C1CD9A7F700EEDB07 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		10C5764D1CD9A7F700EEDB07 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		10EA03831C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Wha Wha Whaaa! Sad Sound Effect.mp3"; path = "MagicBricksIcon/Wha Wha Whaaa! Sad Sound Effect.mp3"; sourceTree = "<group>"; };
 		10ED175B1C2A4D8F00D923FF /* Magic Bricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Bricks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10ED17601C2A4D8F00D923FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +119,19 @@
 		10ED176B1C2A4D8F00D923FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10ED176D1C2A4D8F00D923FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10ED17721C2A4D9000D923FF /* Magic BricksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic BricksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10ED17761C2A4D9000D923FF /* Magic_BricksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_BricksTests.swift; sourceTree = "<group>"; };
-		10ED17781C2A4D9000D923FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10ED177D1C2A4D9000D923FF /* Magic BricksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic BricksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ED17811C2A4D9000D923FF /* Magic_BricksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_BricksUITests.swift; sourceTree = "<group>"; };
 		10ED17831C2A4D9000D923FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ED178F1C2B0F1800D923FF /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		10ED17911C2B0F2A00D923FF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		10ED17981C2E088500D923FF /* MagicBricks - MainTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MagicBricks - MainTheme.mp3"; sourceTree = "<group>"; };
+		10ED179A1C2E1AED00D923FF /* MagicBricks - InGameTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MagicBricks - InGameTheme.mp3"; sourceTree = "<group>"; };
+		10ED179E1C422BE300D923FF /* ?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "?.png"; sourceTree = "<group>"; };
+		10ED17A01C422D5500D923FF /* Gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gear.png; sourceTree = "<group>"; };
+		10ED17A21C4230B700D923FF /* ReverseGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseGameViewController.swift; sourceTree = "<group>"; };
+		10ED17FC1C44AE8300D923FF /* UbixInc-NoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UbixInc-NoBackground.png"; sourceTree = "<group>"; };
+		10ED18001C44BAF600D923FF /* MagicBricksLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagicBricksLogo.png; sourceTree = "<group>"; };
+		10ED18021C48A6F800D923FF /* TrophyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrophyIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +139,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1007E05F1CB695D30047E14D /* CoreData.framework in Frameworks */,
+				1052D6E31C8E832800C51D2C /* SystemConfiguration.framework in Frameworks */,
+				1052D6E11C8E831000C51D2C /* MessageUI.framework in Frameworks */,
+				107C0BAA1C74F05200C599AC /* StoreKit.framework in Frameworks */,
+				1052D6DF1C8E82F400C51D2C /* EventKitUI.framework in Frameworks */,
+				1052D6DD1C8E82EE00C51D2C /* EventKit.framework in Frameworks */,
+				1052D6DB1C8E82E800C51D2C /* CoreTelephony.framework in Frameworks */,
+				1052D6D91C8E82E100C51D2C /* CoreMedia.framework in Frameworks */,
+				1052D6D71C8E82DB00C51D2C /* CoreGraphics.framework in Frameworks */,
+				1052D6D51C8E82D000C51D2C /* AVFoundation.framework in Frameworks */,
+				1007E05D1CB695A00047E14D /* GameKit.framework in Frameworks */,
+				1052D6D31C8E82BF00C51D2C /* AudioToolbox.framework in Frameworks */,
+				10614B411CF3FA5700DF460A /* GoogleMobileAds.framework in Frameworks */,
+				1052D6D11C8E82A900C51D2C /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +173,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1027B0A01C91B9190019E152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10614B401CF3FA5700DF460A /* GoogleMobileAds.framework */,
+				1007E05E1CB695D30047E14D /* CoreData.framework */,
+				1007E05C1CB695A00047E14D /* GameKit.framework */,
+				1052D6E21C8E832800C51D2C /* SystemConfiguration.framework */,
+				1052D6E01C8E831000C51D2C /* MessageUI.framework */,
+				1052D6DE1C8E82F400C51D2C /* EventKitUI.framework */,
+				1052D6DC1C8E82EE00C51D2C /* EventKit.framework */,
+				1052D6DA1C8E82E800C51D2C /* CoreTelephony.framework */,
+				1052D6D81C8E82E100C51D2C /* CoreMedia.framework */,
+				1052D6D61C8E82DB00C51D2C /* CoreGraphics.framework */,
+				1052D6D41C8E82D000C51D2C /* AVFoundation.framework */,
+				1052D6D21C8E82BF00C51D2C /* AudioToolbox.framework */,
+				1052D6D01C8E82A900C51D2C /* AdSupport.framework */,
+				107C0BA91C74F05200C599AC /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10C576401CD9A7F700EEDB07 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				10C576411CD9A7F700EEDB07 /* AppIcon.appiconset */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		10C576411CD9A7F700EEDB07 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				10C576431CD9A7F700EEDB07 /* Icon-40.png */,
+				10C576441CD9A7F700EEDB07 /* Icon-40@2x.png */,
+				10C576451CD9A7F700EEDB07 /* Icon-40@3x.png */,
+				10C576461CD9A7F700EEDB07 /* Icon-60@2x.png */,
+				10C576471CD9A7F700EEDB07 /* Icon-60@3x.png */,
+				10C576481CD9A7F700EEDB07 /* Icon-76.png */,
+				10C576491CD9A7F700EEDB07 /* Icon-76@2x.png */,
+				10C5764A1CD9A7F700EEDB07 /* Icon-83.5@2x.png */,
+				10C5764B1CD9A7F700EEDB07 /* Icon-Small.png */,
+				10C5764C1CD9A7F700EEDB07 /* Icon-Small@2x.png */,
+				10C5764D1CD9A7F700EEDB07 /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
 		10ED17521C2A4D8F00D923FF = {
 			isa = PBXGroup;
 			children = (
 				10ED175D1C2A4D8F00D923FF /* Magic Bricks */,
-				10ED17751C2A4D9000D923FF /* Magic BricksTests */,
 				10ED17801C2A4D9000D923FF /* Magic BricksUITests */,
 				10ED175C1C2A4D8F00D923FF /* Products */,
+				10C576401CD9A7F700EEDB07 /* ios */,
+				10ED18041C49323F00D923FF /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +245,13 @@
 			isa = PBXGroup;
 			children = (
 				10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */,
+				10ED178F1C2B0F1800D923FF /* GameViewController.swift */,
+				103611301C5B0B7F0038EDDD /* GameOverViewController.swift */,
+				103611341C64E8270038EDDD /* HelpViewController.swift */,
+				107C0BA71C74DAE000C599AC /* Product.swift */,
+				10ED17A21C4230B700D923FF /* ReverseGameViewController.swift */,
+				10ED17911C2B0F2A00D923FF /* SettingsViewController.swift */,
+				107C0BA51C74300A00C599AC /* StoreViewController.swift */,
 				10ED17601C2A4D8F00D923FF /* ViewController.swift */,
 				10ED17621C2A4D8F00D923FF /* Main.storyboard */,
 				10ED17681C2A4D8F00D923FF /* Assets.xcassets */,
@@ -110,15 +262,6 @@
 			path = "Magic Bricks";
 			sourceTree = "<group>";
 		};
-		10ED17751C2A4D9000D923FF /* Magic BricksTests */ = {
-			isa = PBXGroup;
-			children = (
-				10ED17761C2A4D9000D923FF /* Magic_BricksTests.swift */,
-				10ED17781C2A4D9000D923FF /* Info.plist */,
-			);
-			path = "Magic BricksTests";
-			sourceTree = "<group>";
-		};
 		10ED17801C2A4D9000D923FF /* Magic BricksUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +269,25 @@
 				10ED17831C2A4D9000D923FF /* Info.plist */,
 			);
 			path = "Magic BricksUITests";
+			sourceTree = "<group>";
+		};
+		10ED18041C49323F00D923FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1099FE1E1CA5DAE800E98F64 /* X2Cubes.png */,
+				1027B0A01C91B9190019E152 /* Frameworks */,
+				10EA03831C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 */,
+				1099FE1C1CA4CA1200E98F64 /* CubezX2.png */,
+				103611321C5B25910038EDDD /* GameOverViewMusic - Magic Bricks.mp3 */,
+				10ED17981C2E088500D923FF /* MagicBricks - MainTheme.mp3 */,
+				10ED179A1C2E1AED00D923FF /* MagicBricks - InGameTheme.mp3 */,
+				10ED179E1C422BE300D923FF /* ?.png */,
+				10ED17A01C422D5500D923FF /* Gear.png */,
+				10ED17FC1C44AE8300D923FF /* UbixInc-NoBackground.png */,
+				10ED18001C44BAF600D923FF /* MagicBricksLogo.png */,
+				10ED18021C48A6F800D923FF /* TrophyIcon.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,18 +353,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Ubix;
 				TargetAttributes = {
 					10ED175A1C2A4D8F00D923FF = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SS74D43GDA;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					10ED17711C2A4D9000D923FF = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 10ED175A1C2A4D8F00D923FF;
 					};
 					10ED177C1C2A4D9000D923FF = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 10ED175A1C2A4D8F00D923FF;
 					};
 				};
@@ -233,8 +404,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				10ED176C1C2A4D8F00D923FF /* LaunchScreen.storyboard in Resources */,
+				10C5765C1CD9A7F700EEDB07 /* Icon-60@2x.png in Resources */,
+				10C576621CD9A7F700EEDB07 /* Icon-Small@2x.png in Resources */,
+				10ED18011C44BAF600D923FF /* MagicBricksLogo.png in Resources */,
+				10C5765F1CD9A7F700EEDB07 /* Icon-76@2x.png in Resources */,
+				1099FE1D1CA4CA1200E98F64 /* CubezX2.png in Resources */,
+				10ED18031C48A6F800D923FF /* TrophyIcon.png in Resources */,
+				1099FE1F1CA5DAE800E98F64 /* X2Cubes.png in Resources */,
+				10C576591CD9A7F700EEDB07 /* Icon-40.png in Resources */,
+				10EA03841C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 in Resources */,
+				10C576611CD9A7F700EEDB07 /* Icon-Small.png in Resources */,
 				10ED17691C2A4D8F00D923FF /* Assets.xcassets in Resources */,
+				10ED17991C2E088500D923FF /* MagicBricks - MainTheme.mp3 in Resources */,
+				103611331C5B25910038EDDD /* GameOverViewMusic - Magic Bricks.mp3 in Resources */,
+				10C5765D1CD9A7F700EEDB07 /* Icon-60@3x.png in Resources */,
+				10ED179F1C422BE300D923FF /* ?.png in Resources */,
 				10ED17641C2A4D8F00D923FF /* Main.storyboard in Resources */,
+				10C5765E1CD9A7F700EEDB07 /* Icon-76.png in Resources */,
+				10C5765B1CD9A7F700EEDB07 /* Icon-40@3x.png in Resources */,
+				10ED17A11C422D5500D923FF /* Gear.png in Resources */,
+				10C576601CD9A7F700EEDB07 /* Icon-83.5@2x.png in Resources */,
+				10C5765A1CD9A7F700EEDB07 /* Icon-40@2x.png in Resources */,
+				10ED179B1C2E1AED00D923FF /* MagicBricks - InGameTheme.mp3 in Resources */,
+				10ED17FD1C44AE8300D923FF /* UbixInc-NoBackground.png in Resources */,
+				10C576631CD9A7F700EEDB07 /* Icon-Small@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +452,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10ED17901C2B0F1800D923FF /* GameViewController.swift in Sources */,
+				107C0BA61C74300A00C599AC /* StoreViewController.swift in Sources */,
 				10ED17671C2A4D8F00D923FF /* Magic_Bricks.xcdatamodeld in Sources */,
 				10ED17611C2A4D8F00D923FF /* ViewController.swift in Sources */,
+				107C0BA81C74DAE000C599AC /* Product.swift in Sources */,
+				10ED17921C2B0F2A00D923FF /* SettingsViewController.swift in Sources */,
+				10ED17A31C4230B700D923FF /* ReverseGameViewController.swift in Sources */,
 				10ED175F1C2A4D8F00D923FF /* AppDelegate.swift in Sources */,
+				103611311C5B0B7F0038EDDD /* GameOverViewController.swift in Sources */,
+				103611351C64E8270038EDDD /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +469,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10ED17771C2A4D9000D923FF /* Magic_BricksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +528,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -374,8 +575,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -394,6 +597,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -403,10 +607,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.7.1",
+				);
 				INFOPLIST_FILE = "Magic Bricks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-Bricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,10 +627,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.7.1",
+				);
 				INFOPLIST_FILE = "Magic Bricks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-Bricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -429,6 +651,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Bricks.app/Magic Bricks";
 			};
 			name = Debug;
@@ -441,6 +664,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Bricks.app/Magic Bricks";
 			};
 			name = Release;
@@ -452,6 +676,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Magic Bricks";
 				USES_XCTRUNNER = YES;
 			};
@@ -464,6 +689,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Magic Bricks";
 				USES_XCTRUNNER = YES;
 			};
@@ -488,6 +714,7 @@
 				10ED17881C2A4D9000D923FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10ED17891C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic BricksTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +723,7 @@
 				10ED178B1C2A4D9000D923FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10ED178C1C2A4D9000D923FF /* Build configuration list for PBXNativeTarget "Magic BricksUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +732,7 @@
 				10ED178E1C2A4D9000D923FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
