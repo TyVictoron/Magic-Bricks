@@ -28,17 +28,7 @@
 		107C0BAA1C74F05200C599AC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107C0BA91C74F05200C599AC /* StoreKit.framework */; };
 		1099FE1D1CA4CA1200E98F64 /* CubezX2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1099FE1C1CA4CA1200E98F64 /* CubezX2.png */; };
 		1099FE1F1CA5DAE800E98F64 /* X2Cubes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1099FE1E1CA5DAE800E98F64 /* X2Cubes.png */; };
-		10C576591CD9A7F700EEDB07 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576431CD9A7F700EEDB07 /* Icon-40.png */; };
-		10C5765A1CD9A7F700EEDB07 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576441CD9A7F700EEDB07 /* Icon-40@2x.png */; };
-		10C5765B1CD9A7F700EEDB07 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576451CD9A7F700EEDB07 /* Icon-40@3x.png */; };
-		10C5765C1CD9A7F700EEDB07 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576461CD9A7F700EEDB07 /* Icon-60@2x.png */; };
-		10C5765D1CD9A7F700EEDB07 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576471CD9A7F700EEDB07 /* Icon-60@3x.png */; };
-		10C5765E1CD9A7F700EEDB07 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576481CD9A7F700EEDB07 /* Icon-76.png */; };
-		10C5765F1CD9A7F700EEDB07 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C576491CD9A7F700EEDB07 /* Icon-76@2x.png */; };
-		10C576601CD9A7F700EEDB07 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764A1CD9A7F700EEDB07 /* Icon-83.5@2x.png */; };
-		10C576611CD9A7F700EEDB07 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764B1CD9A7F700EEDB07 /* Icon-Small.png */; };
-		10C576621CD9A7F700EEDB07 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764C1CD9A7F700EEDB07 /* Icon-Small@2x.png */; };
-		10C576631CD9A7F700EEDB07 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C5764D1CD9A7F700EEDB07 /* Icon-Small@3x.png */; };
+		10D2399A2017CB5B0015A96C /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 10D239992017CB5B0015A96C /* ios */; };
 		10EA03841C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10EA03831C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 */; };
 		10ED175F1C2A4D8F00D923FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */; };
 		10ED17611C2A4D8F00D923FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED17601C2A4D8F00D923FF /* ViewController.swift */; };
@@ -98,17 +88,7 @@
 		107C0BA91C74F05200C599AC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1099FE1C1CA4CA1200E98F64 /* CubezX2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CubezX2.png; sourceTree = "<group>"; };
 		1099FE1E1CA5DAE800E98F64 /* X2Cubes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X2Cubes.png; sourceTree = "<group>"; };
-		10C576431CD9A7F700EEDB07 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
-		10C576441CD9A7F700EEDB07 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		10C576451CD9A7F700EEDB07 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
-		10C576461CD9A7F700EEDB07 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
-		10C576471CD9A7F700EEDB07 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
-		10C576481CD9A7F700EEDB07 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		10C576491CD9A7F700EEDB07 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
-		10C5764A1CD9A7F700EEDB07 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
-		10C5764B1CD9A7F700EEDB07 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		10C5764C1CD9A7F700EEDB07 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		10C5764D1CD9A7F700EEDB07 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		10D239992017CB5B0015A96C /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
 		10EA03831C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Wha Wha Whaaa! Sad Sound Effect.mp3"; path = "MagicBricksIcon/Wha Wha Whaaa! Sad Sound Effect.mp3"; sourceTree = "<group>"; };
 		10ED175B1C2A4D8F00D923FF /* Magic Bricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Bricks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ED175E1C2A4D8F00D923FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -194,39 +174,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		10C576401CD9A7F700EEDB07 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				10C576411CD9A7F700EEDB07 /* AppIcon.appiconset */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		10C576411CD9A7F700EEDB07 /* AppIcon.appiconset */ = {
-			isa = PBXGroup;
-			children = (
-				10C576431CD9A7F700EEDB07 /* Icon-40.png */,
-				10C576441CD9A7F700EEDB07 /* Icon-40@2x.png */,
-				10C576451CD9A7F700EEDB07 /* Icon-40@3x.png */,
-				10C576461CD9A7F700EEDB07 /* Icon-60@2x.png */,
-				10C576471CD9A7F700EEDB07 /* Icon-60@3x.png */,
-				10C576481CD9A7F700EEDB07 /* Icon-76.png */,
-				10C576491CD9A7F700EEDB07 /* Icon-76@2x.png */,
-				10C5764A1CD9A7F700EEDB07 /* Icon-83.5@2x.png */,
-				10C5764B1CD9A7F700EEDB07 /* Icon-Small.png */,
-				10C5764C1CD9A7F700EEDB07 /* Icon-Small@2x.png */,
-				10C5764D1CD9A7F700EEDB07 /* Icon-Small@3x.png */,
-			);
-			path = AppIcon.appiconset;
-			sourceTree = "<group>";
-		};
 		10ED17521C2A4D8F00D923FF = {
 			isa = PBXGroup;
 			children = (
 				10ED175D1C2A4D8F00D923FF /* Magic Bricks */,
 				10ED17801C2A4D9000D923FF /* Magic BricksUITests */,
 				10ED175C1C2A4D8F00D923FF /* Products */,
-				10C576401CD9A7F700EEDB07 /* ios */,
+				10D239992017CB5B0015A96C /* ios */,
 				10ED18041C49323F00D923FF /* Supporting Files */,
 			);
 			sourceTree = "<group>";
@@ -359,7 +313,7 @@
 					10ED175A1C2A4D8F00D923FF = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = SS74D43GDA;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0920;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
@@ -373,7 +327,7 @@
 					};
 					10ED177C1C2A4D9000D923FF = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0920;
 						TestTargetID = 10ED175A1C2A4D8F00D923FF;
 					};
 				};
@@ -404,30 +358,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				10ED176C1C2A4D8F00D923FF /* LaunchScreen.storyboard in Resources */,
-				10C5765C1CD9A7F700EEDB07 /* Icon-60@2x.png in Resources */,
-				10C576621CD9A7F700EEDB07 /* Icon-Small@2x.png in Resources */,
 				10ED18011C44BAF600D923FF /* MagicBricksLogo.png in Resources */,
-				10C5765F1CD9A7F700EEDB07 /* Icon-76@2x.png in Resources */,
 				1099FE1D1CA4CA1200E98F64 /* CubezX2.png in Resources */,
 				10ED18031C48A6F800D923FF /* TrophyIcon.png in Resources */,
 				1099FE1F1CA5DAE800E98F64 /* X2Cubes.png in Resources */,
-				10C576591CD9A7F700EEDB07 /* Icon-40.png in Resources */,
 				10EA03841C80FEE7002245D5 /* Wha Wha Whaaa! Sad Sound Effect.mp3 in Resources */,
-				10C576611CD9A7F700EEDB07 /* Icon-Small.png in Resources */,
 				10ED17691C2A4D8F00D923FF /* Assets.xcassets in Resources */,
 				10ED17991C2E088500D923FF /* MagicBricks - MainTheme.mp3 in Resources */,
 				103611331C5B25910038EDDD /* GameOverViewMusic - Magic Bricks.mp3 in Resources */,
-				10C5765D1CD9A7F700EEDB07 /* Icon-60@3x.png in Resources */,
 				10ED179F1C422BE300D923FF /* ?.png in Resources */,
 				10ED17641C2A4D8F00D923FF /* Main.storyboard in Resources */,
-				10C5765E1CD9A7F700EEDB07 /* Icon-76.png in Resources */,
-				10C5765B1CD9A7F700EEDB07 /* Icon-40@3x.png in Resources */,
 				10ED17A11C422D5500D923FF /* Gear.png in Resources */,
-				10C576601CD9A7F700EEDB07 /* Icon-83.5@2x.png in Resources */,
-				10C5765A1CD9A7F700EEDB07 /* Icon-40@2x.png in Resources */,
 				10ED179B1C2E1AED00D923FF /* MagicBricks - InGameTheme.mp3 in Resources */,
 				10ED17FD1C44AE8300D923FF /* UbixInc-NoBackground.png in Resources */,
-				10C576631CD9A7F700EEDB07 /* Icon-Small@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D2399A2017CB5B0015A96C /* ios in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,7 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-Bricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -638,7 +582,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-Bricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -676,7 +620,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Magic Bricks";
 				USES_XCTRUNNER = YES;
 			};
@@ -689,7 +633,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "UbixInc.Magic-BricksUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Magic Bricks";
 				USES_XCTRUNNER = YES;
 			};

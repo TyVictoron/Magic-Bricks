@@ -87,7 +87,7 @@ class ReverseGameViewController: UIViewController, AVAudioPlayerDelegate, UIColl
         }
         
         // timer
-        let timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ReverseGameViewController.update), userInfo: nil, repeats: true)
+        _ = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ReverseGameViewController.update), userInfo: nil, repeats: true)
         
         // infinently loop the background music
         backgroundMusic = self.setupAudioPlayerWithFile("MagicBricks - InGameTheme", type:"mp3")
@@ -109,7 +109,7 @@ class ReverseGameViewController: UIViewController, AVAudioPlayerDelegate, UIColl
     }
     
     // updates counter
-    func update() {
+    @objc func update() {
         time -= 1
         if time == 0 {
             waveLabel.isHidden = true
@@ -155,7 +155,14 @@ class ReverseGameViewController: UIViewController, AVAudioPlayerDelegate, UIColl
         // Set up bricks
         let width = (Int)(view.bounds.size.width - 41)
         let xOffset = ((Int)(view.bounds.size.width) % 42) / 2
-        for var x = xOffset; x < width; x += 42 {addBlock(x, y:  0, color: UIColor.yellow)}
+        
+        var x = xOffset
+        while x < width {
+            x += 42
+            addBlock(x, y:  0, color: UIColor.yellow)
+        }
+        
+        //for var x = xOffset; x < width; x += 42 {addBlock(x, y:  0, color: UIColor.yellow)}
         pushCubes()
     }
     

@@ -16,21 +16,21 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var secondSelectButtonOutlet: UIButton!
     @IBOutlet weak var secondSelectTextButtonOutlet: UILabel!
     @IBOutlet weak var selectButtonOutlet: UIButton!
-    var removeAds = false
-    var unlockEasyMode = false
-    var counter = 0
-    var counter2 = 0
-    var highScore = Int()
-    var x2 = false
-    var activateEasyMode = false
-    var activateHardMode = false
-    var activateX2 = false
-    var selectButtonColor = UIColor.black
-    var secondSelectButtonColor = UIColor.black
-    var fromGOVC = false
-    var fromStartVC = false
-    var interstitialEasy: GADInterstitial!
-    var interstitialHard: GADInterstitial!
+    @objc var removeAds = false
+    @objc var unlockEasyMode = false
+    @objc var counter = 0
+    @objc var counter2 = 0
+    @objc var highScore = Int()
+    @objc var x2 = false
+    @objc var activateEasyMode = false
+    @objc var activateHardMode = false
+    @objc var activateX2 = false
+    @objc var selectButtonColor = UIColor.black
+    @objc var secondSelectButtonColor = UIColor.black
+    @objc var fromGOVC = false
+    @objc var fromStartVC = false
+    @objc var interstitialEasy: GADInterstitial!
+    @objc var interstitialHard: GADInterstitial!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,7 +81,7 @@ class SettingsViewController: UIViewController {
     }
     
     // Creates Easy Mode Ads
-    func createAndLoadAdEasy() -> GADInterstitial
+    @objc func createAndLoadAdEasy() -> GADInterstitial
     {
         let ad = GADInterstitial(adUnitID: "ca-app-pub-5788120822235976/4171124442")
         
@@ -94,7 +94,7 @@ class SettingsViewController: UIViewController {
     }
     
     // Creates Hard Mode Ads
-    func createAndLoadAdHard() -> GADInterstitial
+    @objc func createAndLoadAdHard() -> GADInterstitial
     {
         let ad = GADInterstitial(adUnitID: "ca-app-pub-5788120822235976/5647857642")
         

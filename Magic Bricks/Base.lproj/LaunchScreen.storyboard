@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,34 +19,28 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UbixInc-NoBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ped-Uf-Xmd">
-                                <rect key="frame" x="40" y="90" width="521" height="420"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="521" id="8Jh-X6-0KW"/>
-                                    <constraint firstAttribute="height" constant="420" id="kWa-g4-Yth"/>
-                                </constraints>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ty Victorson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZJ-tB-SQf">
+                                <rect key="frame" x="35" y="285" width="305" height="96"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="43"/>
+                                <color key="textColor" red="1" green="0.81575310381729271" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.27432528409090906" green="0.0" blue="0.27424130659429458" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.27432528409090906" green="0.0" blue="0.27424130659429458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Ped-Uf-Xmd" secondAttribute="bottom" constant="90" id="FCl-VI-p6F"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ped-Uf-Xmd" secondAttribute="trailing" constant="19" id="T3D-bz-nam"/>
-                            <constraint firstItem="Ped-Uf-Xmd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Upy-9T-hgu"/>
-                            <constraint firstItem="Ped-Uf-Xmd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="70" id="jhD-gP-OGM"/>
-                            <constraint firstItem="Ped-Uf-Xmd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x2r-T0-Ar9"/>
-                            <constraint firstItem="Ped-Uf-Xmd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="yXu-pu-PbH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QZJ-tB-SQf" secondAttribute="trailing" constant="19" id="8sl-Wp-bL4"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QZJ-tB-SQf" secondAttribute="bottom" constant="286" id="OJ3-lF-OeA"/>
+                            <constraint firstItem="QZJ-tB-SQf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="19" id="aWC-0I-gfe"/>
+                            <constraint firstItem="QZJ-tB-SQf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="265" id="uog-uD-agm"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="UbixInc-NoBackground.png" width="1080" height="1080"/>
-    </resources>
 </document>

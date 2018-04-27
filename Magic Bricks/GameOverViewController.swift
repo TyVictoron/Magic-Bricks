@@ -23,25 +23,25 @@ class GameOverViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var currentScoreLabel: UILabel!
     @IBOutlet weak var highScoreLabel: UILabel!
     @IBOutlet weak var insultLabel: UILabel!
-    var interstitial: GADInterstitial!
-    var banner: GADBannerView!
-    var highScore = Int()
-    var currentScore = 0
-    var backgroundMusic = AVAudioPlayer()
+    @objc var interstitial: GADInterstitial!
+    @objc var banner: GADBannerView!
+    @objc var highScore = Int()
+    @objc var currentScore = 0
+    @objc var backgroundMusic = AVAudioPlayer()
     
-    var highScoreUpdated = Bool()
-    var gcEnabled = Bool() // Stores if the user has Game Center enabled
-    var gcDefaultLeaderBoard = String() // Stores the default leaderboardID
+    @objc var highScoreUpdated = Bool()
+    @objc var gcEnabled = Bool() // Stores if the user has Game Center enabled
+    @objc var gcDefaultLeaderBoard = String() // Stores the default leaderboardID
     
-    var activateX2 = false
-    var x2 = false
-    var removeAds = false
-    var isAdShowing = false
-    var unlockEasyMode = false
-    var activateEasyMode = false
-    var activateHardMode = false
-    var selectButtonColor = UIColor.black
-    var secondSelectButton = UIColor.black
+    @objc var activateX2 = false
+    @objc var x2 = false
+    @objc var removeAds = false
+    @objc var isAdShowing = false
+    @objc var unlockEasyMode = false
+    @objc var activateEasyMode = false
+    @objc var activateHardMode = false
+    @objc var selectButtonColor = UIColor.black
+    @objc var secondSelectButton = UIColor.black
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -156,7 +156,7 @@ class GameOverViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     // Sound setup
-    func setupAudioPlayerWithFile(_ file:NSString, type:NSString) -> AVAudioPlayer  {
+    @objc func setupAudioPlayerWithFile(_ file:NSString, type:NSString) -> AVAudioPlayer  {
         //1
         let path = Bundle.main.path(forResource: file as String, ofType:type as String)
         let url = URL(fileURLWithPath: path!)
@@ -206,7 +206,7 @@ class GameOverViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     // Creates Ads
-    func createAndLoadAd() -> GADInterstitial
+    @objc func createAndLoadAd() -> GADInterstitial
     {
         let ad = GADInterstitial(adUnitID: "ca-app-pub-5788120822235976/7574298045")
         
@@ -218,7 +218,7 @@ class GameOverViewController: UIViewController, AVAudioPlayerDelegate {
         return ad
     }
     
-    func loadAd() -> GADBannerView {
+    @objc func loadAd() -> GADBannerView {
         banner = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
         banner.adUnitID = "ca-app-pub-5788120822235976/9618679249"
         banner.rootViewController = self

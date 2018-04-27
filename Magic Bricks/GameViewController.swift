@@ -188,7 +188,7 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate, UICollisionBe
     }
     
     // updates counter
-    func update() {
+    @objc func update() {
         time -= 1
         if time == 0 {
             waveLabel.isHidden = true
@@ -197,7 +197,7 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate, UICollisionBe
     }
     
     // updates counter
-    func update2() {
+    @objc func update2() {
         time -= 1
         instantiateCube()
         if score >= 100 {
@@ -212,7 +212,7 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate, UICollisionBe
     }
     
     // updates counter
-    func update3() {
+    @objc func update3() {
         var easymode = true
         time -= 1
         if easymode == true {
@@ -275,7 +275,7 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate, UICollisionBe
         time = 3
         update()
         if time == 0 {
-            for block in magicCubes {
+            for _ in magicCubes {
                 pushCubes()
             }
         }
@@ -299,7 +299,12 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate, UICollisionBe
         // Set up bricks
         let width = (Int)(view.bounds.size.width - 41)
         let xOffset = ((Int)(view.bounds.size.width) % 42) / 2
-        for var x = xOffset; x < width; x += 42 {addBlock(x, y:  0, color: UIColor.yellow)}
+        var x = xOffset
+        while x < width {
+            x += 42
+            addBlock(x, y:  0, color: UIColor.yellow)
+        }
+        //for var x = xOffset; x < width; x += 42 {addBlock(x, y:  0, color: UIColor.yellow)}
         pushCubes()
     }
     
@@ -339,7 +344,7 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate, UICollisionBe
     func collisionBehavior(_ behavior: UICollisionBehavior, beganContactFor item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying?, at p: CGPoint) {
         var blocksHidden = 0
         for block in magicCubes {
-            if item.isEqual(block) && p.y > face.center.y {
+            if item.isEqual(block) && p.y < face.center.y {
                 block.isHidden = true
                 collisionBehavior.removeItem(block)
                 blocksHidden += 1
@@ -375,6 +380,7 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate, UICollisionBe
                 }
                 scoreLabel.text = "Cubes Eaten: \(score)"
                 collisionBehavior.removeItem(block)
+                face.heightAnchor.constraint(equalToConstant: 40) // bet
             }
             
             if block.isHidden == true {

@@ -16,24 +16,24 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, ADBannerViewDeleg
 
     @IBOutlet weak var playOutlet: UIButton!
     @IBOutlet weak var yalpOutlet: UIButton!
-    var backgroundMusic = AVAudioPlayer()
-    var clicks = 0
-    var highScore = Int()
-    var highScoreUpdated = Bool()
+    @objc var backgroundMusic = AVAudioPlayer()
+    @objc var clicks = 0
+    @objc var highScore = Int()
+    @objc var highScoreUpdated = Bool()
     
-    var removeAds = false
-    var unlockEasyMode = false
-    var activateX2 = false
-    var x2 = false
-    var activateEasyMode = false
-    var activateHardMode = false
-    var selectButtonColor = UIColor.black
-    var secondSelectButton = UIColor.black
+    @objc var removeAds = false
+    @objc var unlockEasyMode = false
+    @objc var activateX2 = false
+    @objc var x2 = false
+    @objc var activateEasyMode = false
+    @objc var activateHardMode = false
+    @objc var selectButtonColor = UIColor.black
+    @objc var secondSelectButton = UIColor.black
     
     @IBOutlet weak var reversePlayButton: UIButton!
     @IBOutlet weak var lblScore: UILabel!
-    var gcEnabled = Bool() // Stores if the user has Game Center enabled
-    var gcDefaultLeaderBoard = String() // Stores the default leaderboardID
+    @objc var gcEnabled = Bool() // Stores if the user has Game Center enabled
+    @objc var gcDefaultLeaderBoard = String() // Stores the default leaderboardID
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -88,7 +88,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, ADBannerViewDeleg
     }
     
     // Sound setup
-    func setupAudioPlayerWithFile(_ file:NSString, type:NSString) -> AVAudioPlayer  {
+    @objc func setupAudioPlayerWithFile(_ file:NSString, type:NSString) -> AVAudioPlayer  {
         //1
         let path = Bundle.main.path(forResource: file as String, ofType:type as String)
         let url = URL(fileURLWithPath: path!)

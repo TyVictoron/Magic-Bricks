@@ -11,21 +11,21 @@ import StoreKit
 
 class StoreViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, SKProductsRequestDelegate, SKPaymentTransactionObserver {
     
-    var tableView = UITableView()
-    let productIdentifiers = Set(["removeAds", "easyMode", "X2"])
-    var product: SKProduct?
-    var productsArray = Array<SKProduct>()
+    @objc var tableView = UITableView()
+    @objc let productIdentifiers = Set(["removeAds", "easyMode", "X2"])
+    @objc var product: SKProduct?
+    @objc var productsArray = Array<SKProduct>()
     
-    var purchasedItems : [String] = []
-    var highScore = Int()
-    var removeAds = false
-    var unlockEasyMode = false
-    var activateX2 = false
-    var x2 = false
-    var activateEasyMode = false
-    var activateHardMode = false
-    var selectButtonColor = UIColor.black
-    var secondSelectButton = UIColor.black
+    @objc var purchasedItems : [String] = []
+    @objc var highScore = Int()
+    @objc var removeAds = false
+    @objc var unlockEasyMode = false
+    @objc var activateX2 = false
+    @objc var x2 = false
+    @objc var activateEasyMode = false
+    @objc var activateHardMode = false
+    @objc var selectButtonColor = UIColor.black
+    @objc var secondSelectButton = UIColor.black
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,7 +63,7 @@ class StoreViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     // In-App Purchase Methods
     
-    func requestProductData()
+    @objc func requestProductData()
     {
         if SKPaymentQueue.canMakePayments() {
             let request = SKProductsRequest(productIdentifiers:
@@ -112,7 +112,7 @@ class StoreViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
     }
     
-    func buyProduct(_ sender: UIButton) {
+    @objc func buyProduct(_ sender: UIButton) {
         let payment = SKPayment(product: productsArray[sender.tag])
         SKPaymentQueue.default().add(payment)
     }
@@ -138,7 +138,7 @@ class StoreViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
     }
     
-    func deliverProduct(_ transaction:SKPaymentTransaction) {
+    @objc func deliverProduct(_ transaction:SKPaymentTransaction) {
         
         if transaction.payment.productIdentifier == "removeAds"
         {
@@ -164,12 +164,12 @@ class StoreViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
     }
     
-    func restorePurchases(_ sender: UIButton) {
+    @objc func restorePurchases(_ sender: UIButton) {
         SKPaymentQueue.default().add(self)
         SKPaymentQueue.default().restoreCompletedTransactions()
     }
     
-    func closeStore(_ sender: UIButton) {
+    @objc func closeStore(_ sender: UIButton) {
         self.performSegue(withIdentifier: "GameOverVC", sender: nil) // allows for segues without a button
         let resultController = self.storyboard?.instantiateViewController(withIdentifier: "GameOverVC") as? GameOverViewController
         self.present(resultController!, animated: true, completion: nil)
@@ -203,8 +203,8 @@ class StoreViewController: UIViewController, UITableViewDataSource, UITableViewD
             }
         }
         
-        let alert = UIAlertView(title: "Thank You", message: "Your purchase(s) were restored.", delegate: nil, cancelButtonTitle: "OK")
-        alert.show()
+        //let alert = UIAlertControllerStyle(title: "Thank You", message: "Your purchase(s) were restored.", delegate: nil, cancelButtonTitle: "OK")
+        //alert.show()
     }
     
     // Screen Layout Methods

@@ -10,7 +10,7 @@ import UIKit
 
 class Product: NSObject
 {
-    var title: String = ""
-    var details: String = ""
-    var id: String = ""
+    @objc var title: String = ""
+    @objc var details: String = ""
+    @objc var id: String = ""
 }
